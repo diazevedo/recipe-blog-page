@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: auto;
+  padding: var(--space-sm) var(--space-xs);
+}
+
+body > * {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
