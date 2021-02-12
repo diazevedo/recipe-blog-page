@@ -32,4 +32,6 @@
 
   --min-width: 37.5rem;
   --max-width: 97rem;
+
+  --screen-md: 768px;
 }

@@ -4,7 +4,7 @@
   font-weight: 700;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .title-one {
     font-size: var(--title-lgx);
   }

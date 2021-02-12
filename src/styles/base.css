@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: auto;
-  padding: var(--space-sm) var(--space-xs);
+  padding: var(--space-mds) var(--space-xs);
 }
 
 body > * {
@@ -30,4 +30,10 @@ a {
   font-size: inherit;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: var(--space-lg) var(--space-xs);
+  }
 }
