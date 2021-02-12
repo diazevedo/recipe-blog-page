@@ -1,6 +1,17 @@
 @import "./../components/titles.css";
+@import "./../components/text.css";
 
 header,
 header * {
   width: 100%;
+}
+
+.header .text {
+  margin: var(--space-xs) 0 var(--space-smx);
+}
+
+@media (min-width: 768px) {
+  .header .text {
+    max-width: 62rem;
+  }
 }

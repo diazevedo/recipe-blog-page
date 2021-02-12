@@ -11,6 +11,7 @@
 
   --text-xs: 0.8rem;
   --text-sm: 1rem;
+  --text-xsm: 1.2rem;
   --text-smx: 1.4rem;
   --text-md: 1.6rem;
   --text-lg: 1.8rem;
@@ -24,6 +25,7 @@
 
   --space-xs: 1.2rem;
   --space-sm: 2rem;
+  --space-smx: 2.4rem;
   --space-mds: 3.2rem;
   --space-md: 4.2rem;
   --space-lg: 4.8rem;

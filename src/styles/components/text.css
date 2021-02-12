@@ -1,0 +1,25 @@
+.text {
+  font-family: var(--font-primary);
+  font-size: var(--text-xsm);
+  font-weight: 500;
+  color: var(--gray-2);
+  line-height: 1.5rem;
+}
+
+.background {
+  background-image: url(../../assets/images/6dots.svg);
+  background-repeat: no-repeat;
+  padding: 0 var(--space-smx);
+  background-position-y: 0.3rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: var(--text-smx);
+    max-width: 62rem;
+  }
+}
