@@ -3,6 +3,7 @@
 @import "../components/title-three.css";
 @import "../components/check-item.css";
 @import "../components/instruction__item.css";
+@import "../components/citation.css";
 
 img {
   width: 100%;

@@ -1,0 +1,18 @@
+.citation {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--gray-3);
+  font-size: var(--text-xsm);
+}
+
+.citation cite a {
+  cursor: pointer;
+  color: var(--gray-3);
+  font-size: var(--text-xsm);
+}
+
+@media (min-width: 768px) {
+  .citation {
+    font-size: var(--text-md);
+  }
+}
