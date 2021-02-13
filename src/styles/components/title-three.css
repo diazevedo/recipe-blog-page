@@ -1,0 +1,16 @@
+.title-three {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: var(--title-xsm);
+  color: var(--gray-1);
+}
+
+.title-three.-bigger {
+  font-size: var(--title-sm);
+}
+
+@media (min-width: 768px) {
+  .title-three {
+    font-size: var(--title-sm);
+  }
+}
