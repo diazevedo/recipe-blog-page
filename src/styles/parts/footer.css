@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+}
+
+footer * {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  font-size: var(--text-smx);
+  color: var(--gray-3);
+}
+
+footer a:first-child {
+  margin-right: 2rem;
+}
