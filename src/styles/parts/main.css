@@ -2,6 +2,7 @@
 @import "../components/title-two.css";
 @import "../components/title-three.css";
 @import "../components/check-item.css";
+@import "../components/instruction__item.css";
 
 img {
   width: 100%;
