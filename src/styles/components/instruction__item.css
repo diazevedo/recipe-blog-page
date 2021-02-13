@@ -37,4 +37,7 @@ body {
 }
 
 @media (min-width: 768px) {
+  .instruction__item {
+    line-height: 2.4rem;
+  }
 }

@@ -4,18 +4,24 @@
 @import "../components/check-item.css";
 @import "../components/instruction__item.css";
 @import "../components/citation.css";
-
+/** Image */
 .main-image {
   width: 100%;
   margin-bottom: var(--space-sm);
 }
 
+/** Section with ingredients */
 main .ingredients-section {
   margin-top: var(--space-mds);
 }
 
 main .ingredients-section .title-three {
   margin: 1.5rem 0 var(--space-sm);
+}
+
+/** Section with instructions */
+main .instructions .title-two {
+  margin: var(--space-mds) 0;
 }
 
 @media (min-width: 768px) {
@@ -43,6 +49,6 @@ main .ingredients-section .title-three {
   }
 
   main section {
-    max-width: 60rem;
+    max-width: 57.5rem;
   }
 }
