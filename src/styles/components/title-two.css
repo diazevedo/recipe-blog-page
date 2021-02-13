@@ -1,0 +1,16 @@
+.title-two {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: var(--title-sm);
+  color: var(--gray-1);
+}
+
+.title-two.-bigger {
+  font-size: var(--title-md);
+}
+
+@media (min-width: 768px) {
+  .title-two {
+    font-size: var(--title-md);
+  }
+}
