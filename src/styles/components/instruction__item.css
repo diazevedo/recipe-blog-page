@@ -35,3 +35,6 @@ body {
   background-color: var(--orange-1);
   border-radius: 6px;
 }
+
+@media (min-width: 768px) {
+}

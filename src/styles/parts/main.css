@@ -5,6 +5,44 @@
 @import "../components/instruction__item.css";
 @import "../components/citation.css";
 
-img {
+.main-image {
   width: 100%;
+  margin-bottom: var(--space-sm);
+}
+
+main .ingredients-section {
+  margin-top: var(--space-mds);
+}
+
+main .ingredients-section .title-three {
+  margin: 1.5rem 0 var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .main-image {
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-lg);
+  }
+}
+
+@media (min-width: 830px) {
+  main .card-recipe {
+    float: right;
+  }
+
+  main .ingredients-section {
+    margin-top: 0;
+  }
+
+  main .ingredients-section .title-three {
+    margin: var(--space-mds) 0 var(--space-mds);
+  }
+
+  main .ingredients-section .check-item {
+    margin-top: 1rem;
+  }
+
+  main section {
+    max-width: 60rem;
+  }
 }
