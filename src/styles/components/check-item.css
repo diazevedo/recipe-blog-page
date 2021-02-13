@@ -1,0 +1,25 @@
+.check-item {
+  display: flex;
+  font-weight: 400;
+  font-family: var(--font-primary);
+  font-size: var(--text-smx);
+  line-height: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.check-item > input {
+  min-width: 2.1rem;
+  min-height: 2.1rem;
+  border: teal 1px solid;
+  margin-right: 1rem;
+}
+
+.check-item strong {
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .check-item {
+    font-size: var(--text-md);
+  }
+}
