@@ -24,6 +24,11 @@ main .instructions .title-two {
   margin: var(--space-mds) 0;
 }
 
+/** citation */
+main .citation {
+  margin-top: var(--space-mds);
+}
+
 @media (min-width: 768px) {
   .main-image {
     margin-top: var(--space-sm);
@@ -31,7 +36,7 @@ main .instructions .title-two {
   }
 }
 
-@media (min-width: 830px) {
+@media (min-width: 840px) {
   main .card-recipe {
     float: right;
   }
@@ -50,5 +55,10 @@ main .instructions .title-two {
 
   main section {
     max-width: 57.5rem;
+  }
+
+  /** citation */
+  main .citation {
+    margin-top: var(--space-lg);
   }
 }

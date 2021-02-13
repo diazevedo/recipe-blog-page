@@ -59,7 +59,7 @@
   }
 }
 
-@media (min-width: 830px) {
+@media (min-width: 840px) {
   .card-recipe {
     max-width: 22rem;
     min-height: 37rem;

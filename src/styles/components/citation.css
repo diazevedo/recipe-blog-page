@@ -6,13 +6,15 @@
 }
 
 .citation cite a {
+  font-size: inherit;
   cursor: pointer;
   color: var(--gray-3);
   font-size: var(--text-xsm);
 }
 
 @media (min-width: 768px) {
-  .citation {
+  .citation,
+  .citation cite a {
     font-size: var(--text-md);
   }
 }

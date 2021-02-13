@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: auto;
-  padding: var(--space-mds) var(--space-xs);
+  padding: var(--space-mds) var(--space-xs) var(--space-xs);
 }
 
 body > * {
@@ -38,6 +38,6 @@ strong {
 
 @media (min-width: 768px) {
   body {
-    padding: var(--space-lg) var(--space-xs);
+    padding: var(--space-lg) var(--space-md) var(--space-xs);
   }
 }
